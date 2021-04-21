@@ -23,7 +23,7 @@ Install dependencies manually or use your IDE's import functionality:
 $ composer install
 ```
 
-In order to run the code you have to set the following variables in [BasicAuth.php](src/BasicAuth.php):
+In order to run the code you have to set the following variables in [PersonalAccessToken.php](src/PersonalAccessToken.php):
 
 ```php
 $tokenId = "YOUR_SIPGATE_TOKEN_ID";
