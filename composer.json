@@ -1,6 +1,6 @@
 {
-  "name": "sipgate/sipgateio-basic-auth-php",
-  "description": "A demonstration of how to authenticate against the sipgate REST API using basic auth",
+  "name": "sipgateio/sipgateio-personalaccesstoken-php",
+  "description": "A demonstration of how to authenticate against the sipgate REST API using personal access token.",
   "minimum-stability": "stable",
   "license": "unlicense",
   "authors": [
@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Sipgate\\Io\\Example\\BasicAuth\\": "src/"
+      "Sipgate\\Io\\Example\\PersonalAccessToken\\": "src/"
     }
   },
   "require": {
