@@ -29,6 +29,8 @@ In order to run the code you have to set the following variables in [BasicAuth.p
 $tokenId = "YOUR_SIPGATE_TOKEN_ID";
 $token = "YOUR_SIPGATE_TOKEN";
 ```
+The token should have the `account:read` scope.
+
 
 Run the application:
 
