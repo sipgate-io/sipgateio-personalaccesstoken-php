@@ -23,12 +23,8 @@ Install dependencies manually or use your IDE's import functionality:
 $ composer install
 ```
 
-In order to run the code you have to set the following variables in [PersonalAccessToken.php](src/PersonalAccessToken.php):
+Create the `.env` by copying the [`.env.example`](.env.example) and set the values according to the comment above each variable.
 
-```php
-$tokenId = "YOUR_SIPGATE_TOKEN_ID";
-$token = "YOUR_SIPGATE_TOKEN";
-```
 The token should have the `account:read` scope.
 
 

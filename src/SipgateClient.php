@@ -1,6 +1,6 @@
 <?php
 
-namespace Sipgate\Io\Example\BasicAuth;
+namespace Sipgate\Io\Example\PersonalAccessToken;
 
 use Zttp\Zttp;
 use Zttp\ZttpResponse;

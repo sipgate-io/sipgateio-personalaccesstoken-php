@@ -1,11 +1,14 @@
 <?php
 
-use Sipgate\Io\Example\BasicAuth\SipgateClient;
+use Sipgate\Io\Example\PersonalAccessToken\SipgateClient;
 
 require_once __DIR__."/../vendor/autoload.php";
 
-$tokenId = "YOUR_SIPGATE_EMAIL";
-$token = "YOUR_SIPGATE_PASSWORD";
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__."/..");
+$dotenv->load();
+
+$tokenId = $_ENV['TOKEN_ID'];
+$token = $_ENV['TOKEN'];
 
 $client = new SipgateClient($tokenId, $token);
 
